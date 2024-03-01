@@ -6,7 +6,7 @@
 }
 .box
 {
-    width: 60%;
+    width: 80%;
     min-height: 100px;
     margin: auto;
 }
@@ -19,7 +19,7 @@
 
     width: 40%;
     height: 60px;
-    background-color: #7e17ac;
+    background-color: #c0392b;
     float: left;
 }
 .logo h1{

@@ -1,0 +1,130 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    width: 60%;
+    min-height: 200px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.header-main{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    
+}
+.header-main .logo{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 47%;
+    background-color: #2D3250;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-main .menu{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    background-color: #2D3250;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider
+{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #424769;
+    margin-top: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.main-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 250px;
+    /* border: 3px solid #000; */
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.main-box .box{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 32%;
+    background-color: #7077A1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.con
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 150px;
+
+}
+.con p{
+
+    padding: 10px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+.footer
+{
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2D3250;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header-main
+    {
+        flex-direction: column;
+        height: 100px;
+    }
+    .header-main .menu
+    {
+        background-color: orange;
+    }
+    .main-box
+    {
+        flex-direction: column;
+        height: 500px;
+    }
+    .container
+    {
+        width: 100%;
+    }
+}
+

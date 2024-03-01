@@ -26,11 +26,20 @@ body{
   
     
 }
+.logo h1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
 .header-main .logo{
     display: flex;
     flex-direction: row;
     flex-basis: 47%;
-    background-color: #2D3250;
+    background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     color: white;
     justify-content: center;
     align-items: center;
@@ -40,8 +49,11 @@ body{
     display: flex;
     flex-direction: row;
     flex-basis: 50%;
-    background-color: #2D3250;
-    color: white;
+    background: #16BFFD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CB3066, #16BFFD);
+;
+    color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
 
@@ -52,7 +64,10 @@ body{
     min-height: 200px;
     display: flex;
     flex-direction: row;
-    background-color: #424769;
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     margin-top: 10px;
     color: white;
     justify-content: center;
@@ -73,7 +88,10 @@ body{
     display: flex;
     flex-direction: row;
     flex-basis: 32%;
-    background-color: #7077A1;
+    background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+background: linear-gradient(to right, #00dbde, #fc00ff); 
+
     color: white;
     justify-content: center;
     align-items: center;
@@ -99,7 +117,11 @@ body{
     min-height: 90px;
     display: flex;
     flex-direction: row;
-    background-color: #2D3250;
+    background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     color: white;
     justify-content: center;
     align-items: center;
@@ -115,7 +137,10 @@ body{
     }
     .header-main .menu
     {
-        background-color: orange;
+        background: #ff0084;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #33001b, #ff0084);  
+        background: linear-gradient(to right, #33001b, #ff0084); 
+        
     }
     .main-box
     {
